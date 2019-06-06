@@ -1,0 +1,24 @@
+{
+  "name": "llniji-rank",
+  "version": "1.0.0",
+  "description": "**ラブライブ！虹ヶ咲学園スクールアイドル同好会**のマンスリーランキングをWebサイトから取得するためのプログラムです。 Node.jsを使用しています。",
+  "main": "llniji-rank.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airries/llniji-rank.git"
+  },
+  "author": "airries",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/airries/llniji-rank/issues"
+  },
+  "homepage": "https://github.com/airries/llniji-rank#readme",
+  "dependencies": {
+    "date-utils": "^1.2.21",
+    "jsdom": "^15.1.1",
+    "request": "^2.88.0"
+  }
+}
