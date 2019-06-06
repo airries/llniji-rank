@@ -1,6 +1,6 @@
 {
   "name": "llniji-rank",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "**ラブライブ！虹ヶ咲学園スクールアイドル同好会**のマンスリーランキングをWebサイトから取得するためのプログラムです。 Node.jsを使用しています。",
   "main": "llniji-rank.js",
   "scripts": {
