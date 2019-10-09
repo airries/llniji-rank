@@ -66,7 +66,7 @@ request(url, (e, response, body) => {
         // HTMLの解析
         const dom = new JSDOM(body);
         const title = dom.window.document.title.valueOf().replace("»", "&raquo;");
-        const liList = dom.window.document.querySelectorAll('body > main > section > div > article > div > ol > li');
+        const liList = dom.window.document.querySelectorAll('body > article > section > div > main > section > div > article > div > ol > li');
 
         // dataにメンバーのランク情報を付与
         let data_rank = [];
